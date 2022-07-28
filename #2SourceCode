@@ -1,0 +1,7 @@
+opp = eval(input('Enter opposite side here: '))
+adj = eval(input('Enter adjacent side here: '))
+hyp = eval(input('Enter hypotenuse here: '))
+if hyp**2 == adj**2 + opp**2:
+  print('This is a right triangle')
+else:
+  print('This isn\'t a right triangle')
